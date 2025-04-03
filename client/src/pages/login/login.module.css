@@ -1,0 +1,151 @@
+
+/* Login form styling */
+.loginForm {
+    background-color: #111b21;
+    color: #e9edef;
+    padding: 1.25rem; 
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.625rem;
+    margin: 0.3125rem 0;
+    border: 0.0625rem solid #2a3942;
+    background-color: #202c33;
+    color: #e9edef;
+    border-radius: 0.3125rem;
+    outline: none;
+  }
+  
+  .submitButton {
+    background-color: #00a884;
+    color: white;
+    padding: 0.625rem;
+    margin-top: 0.625rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #008068;
+  }
+  
+  .signupText {
+    margin-top: 0.625rem;
+    font-size: 0.875rem;
+  }
+  
+  .signupBtn {
+    background-color: #00a884;
+    font-weight: bold;
+    color: white;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .signupBtn:hover {
+    background-color: #008068;
+  }
+
+
+  /* Register form styling */
+  .registerForm {
+    background-color: #111b21;
+    color: #e9edef;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.625rem;
+    margin: 0.3125rem 0;
+    border: 0.0625rem solid #2a3942;
+    background-color: #202c33;
+    color: #e9edef;
+    border-radius: 0.3125rem;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .submitButton {
+    background-color: #00a884;
+    color: white;
+    padding: 0.625rem;
+    margin-top: 0.625rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #008068;
+  }
+  
+  .loginText {
+    margin-top: 0.625rem;
+    font-size: 0.875rem;
+  }
+  
+  .loginBtn {
+    background-color: #00a884;
+    font-weight: bold;
+    color: white;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+  }
+  
+  .loginBtn:hover {
+    background-color: #008068;
+  }
+  
+  /* Bio Field Styling */
+  .inputField:nth-of-type(3) {
+    height: 3rem; /* Making the bio field slightly larger */
+    resize: none; /* Preventing resizing */
+  }
+
+  .loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(to bottom, #07c49b, #085a4b);
+  }
+  
