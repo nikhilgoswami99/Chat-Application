@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #075e54; /* WhatsApp theme green */
+    color: white;
+    padding: 0.5rem 1rem;
+    height: 4rem;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    display: none;
+  }
+  
+  .menuBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+  }
+  
+  @media (min-width: 600px) {
+    .logo {
+      display: block;
+    }
+    .menuBtn {
+      display: none;
+    }
+  }
+  
+  .right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .iconWrapper {
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .badgeContainer {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 0.65rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  

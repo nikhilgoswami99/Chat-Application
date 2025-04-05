@@ -2,3 +2,5 @@
 # Features to be implemented later :-
 1 - validator functions for input values of register and login forms.
 2 - option of adding profile picture in the registration form.
+3 - implemeting error page for not found routes ("*").
+4 - Implementing Suspense and loaders on routes.

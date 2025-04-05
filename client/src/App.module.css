@@ -1,3 +1,45 @@
-.text {
-  background-color: blue;
+.container {
+  display: flex;
+  height: calc(100vh - 4rem);
+}
+
+/* Left Sidebar */
+.sidebar {
+  flex: 1;
+  max-width: 300px;
+  background-color: #f0f2f5;
+  overflow-y: auto;
+  display: none;
+}
+
+/* Main Content (Outlet) */
+.outlet {
+  flex: 2;
+  padding: 1rem;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+/* Right Profile Section */
+.profile {
+  flex: 1;
+  max-width: 300px;
+  background-color: #111b21;
+  color: white;
+  padding: 2rem;
+  display: none;
+}
+
+/* Show sidebar on sm+ screens */
+@media (min-width: 600px) {
+  .sidebar {
+    display: block;
+  }
+}
+
+/* Show profile on md+ screens */
+@media (min-width: 960px) {
+  .profile {
+    display: block;
+  }
 }

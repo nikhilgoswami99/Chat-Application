@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './home.module.css'
 function Home() {
   return (
-    <h1>
-      Home
-    </h1>
+    <div>
+      <h2>Home</h2>
+    </div>
   )
 }
 
