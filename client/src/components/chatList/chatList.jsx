@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./chatList.module.css";
+import ChatItem from "../chatItem/chatItem";
 
 const ChatList = ({
   w = "100%",
@@ -14,19 +15,34 @@ const ChatList = ({
   ],
   handleDeleteChat,
 }) => {
-  const dummyChats = [
-    { id: 1, name: "John Doe" },
-    { id: 2, name: "Jane Smith" },
-    { id: 3, name: "Alice Johnson" },
-  ];
-
   return (
     <div className={styles.chatListContainer}>
-      {dummyChats.map((chat) => (
-        <div key={chat.id} className={styles.chatItem}>
-          {chat.name}
-        </div>
-      ))}
+      {chats?.map((chat, index) => {
+        const { avatar, _id, name, groupChat, members } = chat;
+
+        const newMessageAlert = newMessagesAlert.find(
+          ({ chatId }) => chatId === _id
+        );
+
+        const isOnline = members?.some((member) =>
+          onlineUsers.includes(member)
+        );
+
+        return (
+          <ChatItem
+          index={index}
+          newMessageAlert={newMessageAlert}
+          isOnline={isOnline}
+          avatar={avatar}
+          name={name}
+          _id={_id}
+          key={_id}
+          groupChat={groupChat}
+          sameSender={chatId === _id}
+          handleDeleteChat={handleDeleteChat}
+          />
+        );
+      })}
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.container {
+    background-color: #f0f0f0; /* Assuming grayColor is something like this */
+    height: 100%;
+  }
+  
+  .text {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.25rem; /* MUI's h5 ~ 20px = 1.25rem */
+    margin: 0;
+  }
+  

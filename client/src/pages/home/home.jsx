@@ -1,11 +1,12 @@
-import React from 'react'
-import styles from './home.module.css'
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  )
-}
+import React from "react";
+import styles from "./home.module.css";
 
-export default Home
+const Home = () => {
+  return (
+    <div className={styles.container}>
+      <p className={styles.text}>Select a friend to chat</p>
+    </div>
+  );
+};
+
+export default Home;

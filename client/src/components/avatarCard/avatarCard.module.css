@@ -1,0 +1,23 @@
+.stack {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  .avatarGroup {
+    position: relative;
+  }
+  
+  .avatarBox {
+    width: 5rem;
+    height: 3rem;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+  }
+  

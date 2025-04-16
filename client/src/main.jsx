@@ -49,12 +49,14 @@ const router = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
+      
     ]
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <Suspense fallback={<LayoutLoader/>}>
-    <RouterProvider router={router} />
+    
+    <div onContextMenu={(e) => e.preventDefault()}><RouterProvider router={router} /></div>
   </Suspense>
 );

@@ -1,0 +1,46 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    font-size: 1rem;
+  }
+  
+  .heading {
+    color: gray;
+    font-size: 0.75rem;
+  }
+  
